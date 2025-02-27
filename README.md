@@ -5,6 +5,8 @@
 >[!IMPORTANT]
 Este es mi portafolio personal donde comparto los proyectos en los que he trabajado y las habilidades que he adquirido a lo largo de mi carrera como desarrollador web. Incluye ejemplos de mi trabajo con React, NextJS, y la integración de APIs como GitHub.
 
+de momento todo esta en la carpeta Bento-Test
+
 
 ## Contacto
 
