@@ -1,4 +1,7 @@
 import Image from "next/image";
+import "normalize.css";
+import "./globals.css";
+
 export default function Home() {
   return (
     <div className="container">
@@ -7,7 +10,7 @@ export default function Home() {
         <h1>Backend Dev</h1>
       </div>
       <div className="caja2">carrusel</div>
-      <div className="caja3">foto</div>
+      <div className="caja3"><Image src="/perfil.jpg" alt="Picture of me" width={1280} height={490} className="imagencaja3" /> </div>
       <div className="caja4">
         <h1>
           I'm Mateo, a passionate backend developer dedicated to building robust
