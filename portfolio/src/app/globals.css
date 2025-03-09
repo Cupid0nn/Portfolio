@@ -78,11 +78,32 @@ html, body {
   grid-row: 8 / 11;
   background-color: #6992c7;
 }
-.caja6{
+.caja6 {
   grid-column: 5 / 10;
   grid-row: 8 / 11;
   background-color: #EACDA2;
+  border-radius: 10px; /* Added to give rounded corners */
+  padding: 20px; /* Adjusted padding for better spacing */
+  text-align: center; /* Centering text */
 }
+
+.caja6 h1 {
+  margin: 0;
+  margin-top: 10px;
+  margin-right: 350px ;
+  font-family: 'Montserrat', sans-serif;
+  color: #847C76;
+  font-size: 40px; /* Adjusted font size for consistency */
+}
+
+.caja6 a {
+  margin-top:100px; /* Added margin to separate from h1 */
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size:  50px;
+ margin-right: 350px;
+}
+
 .caja7{
   grid-column: 10 / 13;
   grid-row: 10 / 11;
