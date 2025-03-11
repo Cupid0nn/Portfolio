@@ -80,10 +80,23 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.caja5{
+.caja5 {
   grid-column: 1 / 5;
   grid-row: 8 / 11;
   background-color: #6992c7;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  grid-template-rows: repeat(2, 1fr); /* 2 filas */
+  gap: 20px; /* Espaciado entre íconos */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3)); /* Sombra como en la imagen */
 }
 .caja6 {
   grid-column: 5 / 10;
@@ -99,7 +112,7 @@ html, body {
   margin-top: 10px;
   margin-right: 350px ;
   font-family: 'Montserrat', sans-serif;
-  color: #847C76;
+  color: #000000;
   font-size: 40px; /* Adjusted font size for consistency */
 }
 
@@ -119,10 +132,6 @@ html, body {
   justify-content: space-between;
 }
 
-.imagencaja7{
-  box-shadow: 7px 4px 10px #756855
-}
-
 .container {
   display: grid;
   gap: 20px;
@@ -130,7 +139,7 @@ html, body {
 
 .caja1,   .caja4, .caja5, .caja6, .caja7 {
   border-radius: 15px; /* Esquinas redondeadas */
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
   margin: 10px;
 }

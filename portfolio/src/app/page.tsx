@@ -12,7 +12,7 @@ export default function Home() {
         <h1>Backend Dev</h1>
       </div>
       <div className="caja2">
-      <ImageCarousel />
+        <ImageCarousel />
       </div>
       <div className="caja3">
         <Image
@@ -33,41 +33,63 @@ export default function Home() {
           development in the future.
         </h1>
       </div>
-      <div className="caja5">tecnologias</div>
+      <div className="caja5">
+  <Image src="/icons/logotipo-de-java-script.png" alt="JavaScript" width={75} height={75} className="icon" />
+  <Image src="/icons/biblioteca.png" alt="React" width={75} height={75} className="icon" />
+  <Image src="/icons/ts.png" alt="TypeScript" width={75} height={75} className="icon" />
+  <Image src="/icons/servidor-sql.png" alt="SQL" width={75} height={75} className="icon" />
+  <Image src="/icons/css-3 (1).png" alt="CSS" width={75} height={75} className="icon" />
+  <Image src="/icons/postgre.png" alt="PostgreSQL" width={75} height={75} className="icon" />
+  <Image src="/icons/nodejs.png" alt="Node.js" width={75} height={75} className="icon" />
+  <Image src="/icons/git.png" alt="Git" width={75} height={75} className="icon" />
+</div>
+
       <div className="caja6">
         <h1>Some Questions?</h1>
         <a href="mailto:malaucierno@gmail">Know me better</a>
       </div>
 
       <div className="caja7">
-  <a href="https://github.com/Cupid0nn" target="_blank" rel="noopener noreferrer">
-    <Image
-      src="/githubb.jpg"
-      alt="Github"
-      width={50}
-      height={50}
-      className="imagencaja7"
-    />
-  </a>
-  <a href="https://www.linkedin.com/in/mateo-acierno/" target="_blank" rel="noopener noreferrer">
-    <Image
-      src="/linkedin.jpg"
-      alt="Linkedin"
-      width={50}
-      height={50}
-      className="imagencaja7"
-    />
-  </a>
-  <a href="https://www.instagram.com/laureano.js/" target="_blank" rel="noopener noreferrer">
-    <Image
-      src="/instagram.jpg"
-      alt="Instagram"
-      width={50}
-      height={50}
-      className="imagencaja7"
-    />
-  </a>
-</div>
+        <a
+          href="https://github.com/Cupid0nn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/githubb.jpg"
+            alt="Github"
+            width={50}
+            height={50}
+            className="imagencaja7"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/mateo-acierno/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/linkedin.jpg"
+            alt="Linkedin"
+            width={50}
+            height={50}
+            className="imagencaja7"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/laureano.js/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/instagram.jpg"
+            alt="Instagram"
+            width={50}
+            height={50}
+            className="imagencaja7"
+          />
+        </a>
+      </div>
     </div>
   );
 }
