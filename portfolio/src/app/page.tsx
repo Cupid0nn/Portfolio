@@ -34,15 +34,63 @@ export default function Home() {
         </h1>
       </div>
       <div className="caja5">
-  <Image src="/icons/logotipo-de-java-script.png" alt="JavaScript" width={75} height={75} className="icon" />
-  <Image src="/icons/biblioteca.png" alt="React" width={75} height={75} className="icon" />
-  <Image src="/icons/ts.png" alt="TypeScript" width={75} height={75} className="icon" />
-  <Image src="/icons/servidor-sql.png" alt="SQL" width={75} height={75} className="icon" />
-  <Image src="/icons/css-3 (1).png" alt="CSS" width={75} height={75} className="icon" />
-  <Image src="/icons/postgre.png" alt="PostgreSQL" width={75} height={75} className="icon" />
-  <Image src="/icons/nodejs.png" alt="Node.js" width={75} height={75} className="icon" />
-  <Image src="/icons/git.png" alt="Git" width={75} height={75} className="icon" />
-</div>
+        <Image
+          src="/icons/logotipo-de-java-script.png"
+          alt="JavaScript"
+          width={75}
+          height={75}
+          className="icon"
+        />
+        <Image
+          src="/icons/biblioteca.png"
+          alt="React"
+          width={75}
+          height={75}
+          className="icon"
+        />
+        <Image
+          src="/icons/ts.png"
+          alt="TypeScript"
+          width={75}
+          height={75}
+          className="icon"
+        />
+        <Image
+          src="/icons/servidor-sql.png"
+          alt="SQL"
+          width={75}
+          height={75}
+          className="icon"
+        />
+        <Image
+          src="/icons/css-3 (1).png"
+          alt="CSS"
+          width={75}
+          height={75}
+          className="icon"
+        />
+        <Image
+          src="/icons/postgre.png"
+          alt="PostgreSQL"
+          width={75}
+          height={75}
+          className="icon"
+        />
+        <Image
+          src="/icons/nodejs.png"
+          alt="Node.js"
+          width={75}
+          height={75}
+          className="icon"
+        />
+        <Image
+          src="/icons/git.png"
+          alt="Git"
+          width={75}
+          height={75}
+          className="icon"
+        />
+      </div>
 
       <div className="caja6">
         <h1>Some Questions?</h1>

@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const images = [
-  { src: "/hotelify2.jpg", link: "https://proyecto-hoteleria.vercel.app" },
+  { src: "/hotelify.jpg", link: "https://proyecto-hoteleria.vercel.app" },
   { src: "/js.png", link: "https://personal-page-c1.vercel.app" },
   { src: "/perfilmejor.jpg", link: "https://www.linkedin.com/in/mateo-acierno/" },
   
