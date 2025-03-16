@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className="caja3">
         <Image
-          src="/perfil.jpg"
+          src="/nuevoperfil.jpg"
           alt="Picture of me"
           width={1280}
           height={800}

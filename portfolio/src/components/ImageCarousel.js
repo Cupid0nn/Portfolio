@@ -2,13 +2,13 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image"; // Importa el componente Image de Next.js
 import "swiper/css";
 
 const images = [
   { src: "/hotelify.jpg", link: "https://proyecto-hoteleria.vercel.app" },
   { src: "/captura.jpg", link: "https://github.com/Cupid0nn/API-GEST" },
-  { src: "/perfilmejor.jpg", link: "https://www.linkedin.com/in/mateo-acierno/" },
-  
+  { src: "/jssolvedtest.jpg", link: "https://github.com/Cupid0nn/JS-SOLVED-TESTS" },
 ];
 
 const ImageCarousel = () => {
@@ -24,7 +24,14 @@ const ImageCarousel = () => {
       {images.map((image, index) => (
         <SwiperSlide key={index}>
           <a href={image.link} target="_blank" rel="noopener noreferrer">
-            <img src={image.src} alt={`Slide ${index + 1}`} className="carousel-image" />
+            {/* Reemplaza <img> con <Image /> */}
+            <Image
+              src={image.src}
+              alt={`Slide ${index + 1}`}
+              width={800} // Ajusta el ancho según tus necesidades
+              height={600} // Ajusta la altura según tus necesidades
+              className="carousel-image"
+            />
           </a>
         </SwiperSlide>
       ))}
