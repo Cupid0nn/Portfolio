@@ -6,7 +6,7 @@ import "swiper/css";
 
 const images = [
   { src: "/hotelify.jpg", link: "https://proyecto-hoteleria.vercel.app" },
-  { src: "/js.png", link: "https://personal-page-c1.vercel.app" },
+  { src: "/captura.jpg", link: "https://github.com/Cupid0nn/API-GEST" },
   { src: "/perfilmejor.jpg", link: "https://www.linkedin.com/in/mateo-acierno/" },
   
 ];
@@ -17,7 +17,7 @@ const ImageCarousel = () => {
       modules={[Autoplay]}
       spaceBetween={10}
       slidesPerView={1}
-      autoplay={{ delay: 5000, disableOnInteraction: false }}
+      autoplay={{ delay: 20000, disableOnInteraction: false }}
       loop={true}
       className="carousel"
     >
