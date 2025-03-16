@@ -168,3 +168,49 @@ justify-content: space-between;
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Permite que crezca según el contenido */
+    gap: 10px; /* Espaciado entre elementos */
+    padding: 20px;
+  }
+
+  /* Todas las cajas ocupan el ancho completo */
+  .caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7 {
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    text-align: center; /* Centrar contenido */
+  }
+
+  /* Ajustar tamaños y alineación */
+  .caja6 {
+    min-width: auto;
+  }
+
+  .caja6 h1 {
+    margin-right: 0;
+    font-size: 28px;
+  }
+
+  .aico {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .aico a {
+    font-size: 24px;
+  }
+
+  /* Imágenes responsivas */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
