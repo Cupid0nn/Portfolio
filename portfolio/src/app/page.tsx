@@ -92,21 +92,24 @@ export default function Home() {
         />
       </div>
       <div className="caja6">
-  <h1>Some Questions?</h1>
-  <div className="aico">
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=malaucierno@gmail" target="_blank" rel="noopener noreferrer">
-      Know me better
-      <Image
-        src="/flecha-correcta.png"
-        alt="Gmail"
-        width={50}
-        height={50}
-        style={{ borderRadius: "15px", marginLeft: "280px" }}
-      />
-    </a>
-  </div>
-</div>
-
+        <h1>Some Questions?</h1>
+        <div className="aico">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=malaucierno@gmail"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Know me better
+            <Image
+              src="/flecha-correcta.png"
+              alt="Gmail"
+              width={50}
+              height={50}
+              style={{ borderRadius: "15px", marginLeft: "280px" }}
+            />
+          </a>
+        </div>
+      </div>
 
       <div className="caja7">
         <a

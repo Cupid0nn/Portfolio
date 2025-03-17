@@ -8,7 +8,10 @@ import "swiper/css";
 const images = [
   { src: "/hotelify.jpg", link: "https://proyecto-hoteleria.vercel.app" },
   { src: "/captura.jpg", link: "https://github.com/Cupid0nn/API-GEST" },
-  { src: "/jssolvedtest.jpg", link: "https://github.com/Cupid0nn/JS-SOLVED-TESTS" },
+  {
+    src: "/jssolvedtest.jpg",
+    link: "https://github.com/Cupid0nn/JS-SOLVED-TESTS",
+  },
 ];
 
 const ImageCarousel = () => {
@@ -38,6 +41,5 @@ const ImageCarousel = () => {
     </Swiper>
   );
 };
-
 
 export default ImageCarousel;
